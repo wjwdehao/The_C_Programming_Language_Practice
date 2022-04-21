@@ -1,0 +1,1 @@
+When compiling, gcc warned that it does not recognize '\c'. And the output just ignores the '\' for my '\c', so it simply prints 'c' itself.  
