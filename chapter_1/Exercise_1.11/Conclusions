@@ -1,0 +1,2 @@
+1. the lines counts need to start from 1, since the last line doesn't have a new line character
+2. if a word is wrapped across lines, the program still counts it as two words. 
