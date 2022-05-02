@@ -1,0 +1,3 @@
+This is my first time to interact with the EOF in C. 
+EOF marks the end of the file, so getchar() will immediately return EOF if we have marked EOF previously. 
+This sounds stupid to say but I am surprised by how this program terminates while loop. 
