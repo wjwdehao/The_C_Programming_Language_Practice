@@ -1,0 +1,10 @@
+To write the condition 
+    i < lim-1 && (c = getchar()) != '\n' && c != EOF
+not using && or ||: 
+
+We keep the i < lim-1 in the for loop condition and wrap the original for loop body with the followings: 
+    if ((c = getchar()) != '\n') {
+        if (c != EOF) {
+            // the original for loop body
+        }
+    }
